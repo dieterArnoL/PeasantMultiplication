@@ -6,25 +6,10 @@ using System.Threading.Tasks;
 
 namespace isa.Math
 {
-    /// <summary>Russische Bauernmultiplikation</summary>
-    /// <remarks>Die Russische Bauernmultiplikation (auch Ägyptisches Multiplizieren, Abessinische Bauernregel oder Verdopplungs-Halbierungs-Methode genannt) 
-    /// ist ein einfaches Verfahren zur Multiplikation zweier natürlicher Zahlen.</remarks>
+    
     public static class RussianMultiplication
     {
-        /// <summary>Mul bildet das einfache Verfahren zur Multiplikation zweier natürlicher Zahlen ab. </summary>
-        /// <param name="x">int , Multiplikand</param>
-        /// <param name="y"> int , Multiplikator</param>
-        /// <returns> int , Das Produkt der Multiplikation</returns>
-        /// <remarks>https://de.wikipedia.org/wiki/Russische_Bauernmultiplikation</remarks>
-        /// <exception cref="System.ArgumentOutOfRangeException"> Bei Funktionsaufruf(multiplicand,multiplier) mit nicht natürlichen Zahlen</exception>
-        /// <example>
-        /// Dieses Beispiel zeigt die Verwendung der Mathematischen-Extension <see cref="Left"/>.
-        /// <code>
-        ///     isa.Math.RussianMultiplication.Mul(47,42);
-        ///     //Returns: 1974
-        /// </code>
-        /// </example>
-        /// 
+        
         public static int Mul(int x, int y)
         {
             int multiplicand = x;
